@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: black;
+    background-color: #022601;
 }
 
 section {
@@ -13,6 +16,7 @@ section {
     max-width: 900px;
     margin: auto;
     padding: 10px;
+    box-shadow: 0px 5px 5px black;
 }
 
 h1 {
@@ -20,11 +24,13 @@ h1 {
     margin: 20px 10px 10px 10px;
     text-align: center;
     font-size: max(50px, 2vw);
+    font-family: 'Passion One', cursive;
 }
 
 header {
     background-color: black;
     color: white;
+    padding: 25px;
 }
 
 header > p {
@@ -37,13 +43,15 @@ header > p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 10px 20px 10px 10px;
 }
 
 .girassol > p {
-    background-color: rgba(0, 0, 0, 0.582);
-    max-width: 80%;
+    background-color: rgba(0, 0, 0, 0.541);
+    max-width: 100%;
     color: white;
     padding: 25px 10px 25px 10px;
+
     
 }
 
@@ -60,6 +68,7 @@ header > p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 10px 20px 10px 10px;
 }
 
 p {
@@ -68,10 +77,16 @@ p {
     line-height: 30px;
     font-size: max(20px, 1vw);
     margin-bottom: 50px;
+    font-family: 'Sriracha', cursive;
 }
 
 .duplo {
     height: 850px;
+    padding-left: 20px;
+}
+
+.inicio {
+    padding-left: 20px;
 }
 
 .duplo > p {
@@ -84,6 +99,13 @@ footer {
     position: static;
     height: 0;
     text-align: center;
+    height: 5px;
+    padding-bottom: 30px;
+    
+}
+
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
