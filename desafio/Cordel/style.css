@@ -1,19 +1,53 @@
 * {
-    padding:0;
-    margin:0;
-    vertical-align:baseline;
-    list-style:none;
-    border:0
-    }
+    margin: 0;
+    padding: 0;
+}
 
-header {
-    background-color: black;
-    color: white;
-    height: 150px;
-    text-align: center;
-    padding-top: 25px;
+section {
+    background-color: grey ;
+    height: 600px;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
 }
 
 h1 {
-    font-size: max(60px, 6vw);
+    text-indent: 0;
+    margin: 20px 10px 10px 10px;
+    text-align: center;
+    font-size: max(50px, 2vw);
+}
+
+.girassol {
+    background: green;
+}
+
+.girassol > p {
+    background-color: rgba(0, 0, 0, 0.582);
+    max-width: 50%;
+}
+
+.livro > p {
+    background-color: rgba(0, 0, 0, 0.582);
+    max-width: 50%;
+}
+
+.livro {
+    background: green;
+}
+
+p {
+    position: relative;
+    top: 40%;
+    padding: 10px;
+    font-size: max(20px, 1vw);
+    padding-bottom: 50px;
+}
+
+.duplo {
+    height: 850px;
+}
+
+.duplo > p {
+    top: 35%;
 }
