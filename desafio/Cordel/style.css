@@ -76,7 +76,8 @@ p {
 .trans {
     background-color: rgba(0, 0, 0, 0.479);
     padding: 10px 10px 10px 10px;
-    width: 250px;
+    width: 40vw;
+    height: 50vh;
     border-radius: 5px;
 }
 
