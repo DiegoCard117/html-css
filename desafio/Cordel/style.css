@@ -32,7 +32,7 @@ header > p {
 }
 
 .girassol {
-    background: green url('imagens/background001.jpg') no-repeat fixed center;
+    background: white url('imagens/background001.jpg') no-repeat fixed center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ header > p {
 }
 
 .livro {
-    background: green url('imagens/background002.jpg') no-repeat fixed center;
+    background: white url('imagens/background002.jpg') no-repeat fixed center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -76,4 +76,21 @@ p {
 
 .duplo > p {
     top: 35%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: static;
+    height: 0;
+    text-align: center;
+}
+
+a {
+    color: #D97904;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
