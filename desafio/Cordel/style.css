@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: black;
+}
+
 section {
     background-color: grey ;
     height: 600px;
@@ -18,30 +22,50 @@ h1 {
     font-size: max(50px, 2vw);
 }
 
+header {
+    background-color: black;
+    color: white;
+}
+
+header > p {
+    text-align: center;
+}
+
 .girassol {
-    background: green;
+    background: green url('imagens/background001.jpg') center no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .girassol > p {
     background-color: rgba(0, 0, 0, 0.582);
     max-width: 50%;
+    color: white;
+    padding: 25px 10px 25px 10px;
+    
 }
 
 .livro > p {
     background-color: rgba(0, 0, 0, 0.582);
     max-width: 50%;
+    color: white;
+    padding: 25px 10px 25px 10px;
 }
 
 .livro {
-    background: green;
+    background: green url('imagens/background002.jpg') center no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 p {
     position: relative;
-    top: 40%;
-    padding: 10px;
+    top: 25%;
+    line-height: 30px;
     font-size: max(20px, 1vw);
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .duplo {
