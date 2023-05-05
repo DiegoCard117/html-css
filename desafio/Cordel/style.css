@@ -1,100 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto:wght@300&family=Share+Tech&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
-body {
-    height: 100%;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #083107;
-}
-
-html {
-    height: 100%;
-    width: 100%;
-}
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
 
 header {
     background-color: black;
     color: white;
-    padding: 20px;
+    height: 150px;
     text-align: center;
+    padding-top: 25px;
 }
 
-header > h1 {
-    font-family: 'Passion One', cursive;
-    font-size: 10vh;
-}
-
-header > p {
-    font-style: italic;
-    
-}
-
-p {
-    font-size: 1.3em;
-    margin-bottom: 10px;
-    font-family: 'Sriracha', cursive;
-}
-
-.segunda {
-    padding-top: 30px;
-}
-
-.girassol {
-    background:green url('imagens/background001.jpg') center right no-repeat fixed;
-    background-size: cover;
-    padding-top: 0px;
-    margin: 0;
-}
-
-.corpo {
-    margin: auto;
-    min-width: 320px;
-    max-width: 900px;
-    background-color: white;
-    text-align: center;
-}
-
-.branco {
-    margin: 0;
-}
-
-.container {
-    padding: 10vh 10vh 10vh 3vh;
-    text-align: start;
-    background-color: rgb(255, 255, 255);
-}
-
-.contimg {
-    padding: 10vh 10vh 15vh 3vh;
-    text-align: start;
-    color: white;
-}
-
-.livro {
-    position: relative;
-    background:grey url('imagens/background002.jpg') bottom right no-repeat fixed;
-
-}
-
-.trans {
-    background-color: rgba(0, 0, 0, 0.479);
-    padding: 10px 10px 10px 10px;
-    width: 40vw;
-    height: 50vh;
-    border-radius: 5px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-style: normal;
-    transition: 0.5s;
-}
-
-a:hover {
-    transform: scale(1.09);
-    color: #F29F05;
-    text-decoration: underline;
+h1 {
+    font-size: max(60px, 6vw);
 }
