@@ -12,10 +12,9 @@ body {
 
 section {
     background-color: white ;
-    height: 800px;
+    height: 750px;
     max-width: 900px;
     margin: auto;
-
     box-shadow: 0px 5px 5px black;
 }
 
@@ -52,8 +51,6 @@ header > p {
     max-width: 100%;
     color: white;
     padding: 25px 10px 25px 10px;
-
-    
 }
 
 .livro > p {
@@ -102,7 +99,6 @@ footer {
     text-align: center;
     height: 5px;
     padding-bottom: 30px;
-    
 }
 
 footer > p {
