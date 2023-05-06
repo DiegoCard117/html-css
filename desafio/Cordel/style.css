@@ -23,7 +23,7 @@ h1 {
     text-indent: 0;
     padding-top: 50px;
     text-align: center;
-    font-size: max(50px, 2vw);
+    font-size: clamp(3em, 1em + 4vw, 7vw);
     font-family: 'Passion One', cursive;
 }
 
