@@ -1,0 +1,14 @@
+@charset "Utf-8" ;
+
+/* para impressora */
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+    color: aqua;
+}
+
+menu {
+    display: none;
+}
