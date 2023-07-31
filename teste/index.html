@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <img id="moon" src="lua.png" alt="">
+    <img id="mountain-front" src="camada2.png" alt="">
+    <img id="mountain-back" src="camada3.png" alt="">
+  </section>
+  <div class="sec">
+    <h2>Parallax</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi saepe voluptatum at quaerat consequatur possimus iure ex nulla, esse error amet quam quo aliquam aliquid cumque obcaecati sint eum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum praesentium quos, delectus dolorem necessitatibus tenetur, quod officiis sapiente odio earum molestiae ipsum impedit provident unde deserunt itaque illo fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aliquam eius minus architecto unde labore, voluptatem ullam, omnis cum voluptatum hic tempora cupiditate impedit itaque recusandae autem tenetur vitae possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea enim nobis doloremque nihil incidunt modi voluptas debitis. At recusandae quam fugiat officiis voluptas consequatur odit eos sapiente distinctio unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi saepe voluptatum at quaerat consequatur possimus iure ex nulla, esse error amet quam quo aliquam aliquid cumque obcaecati sint eum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum praesentium quos, delectus dolorem necessitatibus tenetur, quod officiis sapiente odio earum molestiae ipsum impedit provident unde deserunt itaque illo fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aliquam eius minus architecto unde labore, voluptatem ullam, omnis cum voluptatum hic tempora cupiditate impedit itaque recusandae autem tenetur vitae possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea enim nobis doloremque nihil incidunt modi voluptas debitis. At recusandae quam fugiat officiis voluptas consequatur odit eos sapiente distinctio unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi saepe voluptatum at quaerat consequatur possimus iure ex nulla, esse error amet quam quo aliquam aliquid cumque obcaecati sint eum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum praesentium quos, delectus dolorem necessitatibus tenetur, quod officiis sapiente odio earum molestiae ipsum impedit provident unde deserunt itaque illo fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aliquam eius minus architecto unde labore, voluptatem ullam, omnis cum voluptatum hic tempora cupiditate impedit itaque recusandae autem tenetur vitae possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea enim nobis doloremque nihil incidunt modi voluptas debitis. At recusandae quam fugiat officiis voluptas consequatur odit eos sapiente distinctio unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi saepe voluptatum at quaerat consequatur possimus iure ex nulla, esse error amet quam quo aliquam aliquid cumque obcaecati sint eum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum praesentium quos, delectus dolorem necessitatibus tenetur, quod officiis sapiente odio earum molestiae ipsum impedit provident unde deserunt itaque illo fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aliquam eius minus architecto unde labore, voluptatem ullam, omnis cum voluptatum hic tempora cupiditate impedit itaque recusandae autem tenetur vitae possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea enim nobis doloremque nihil incidunt modi voluptas debitis. At recusandae quam fugiat officiis voluptas consequatur odit eos sapiente distinctio unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi saepe voluptatum at quaerat consequatur possimus iure ex nulla, esse error amet quam quo aliquam aliquid cumque obcaecati sint eum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum praesentium quos, delectus dolorem necessitatibus tenetur, quod officiis sapiente odio earum molestiae ipsum impedit provident unde deserunt itaque illo fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aliquam eius minus architecto unde labore, voluptatem ullam, omnis cum voluptatum hic tempora cupiditate impedit itaque recusandae autem tenetur vitae possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea enim nobis doloremque nihil incidunt modi voluptas debitis. At recusandae quam fugiat officiis voluptas consequatur odit eos sapiente distinctio unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus modi saepe voluptatum at quaerat consequatur possimus iure ex nulla, esse error amet quam quo aliquam aliquid cumque obcaecati sint eum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum praesentium quos, delectus dolorem necessitatibus tenetur, quod officiis sapiente odio earum molestiae ipsum impedit provident unde deserunt itaque illo fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aliquam eius minus architecto unde labore, voluptatem ullam, omnis cum voluptatum hic tempora cupiditate impedit itaque recusandae autem tenetur vitae possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea enim nobis doloremque nihil incidunt modi voluptas debitis. At recusandae quam fugiat officiis voluptas consequatur odit eos sapiente distinctio unde.</p>
+
+  </div>
+
+  <script>
+    let moon = document.querySelector("#moon")
+    let tree = document.querySelector("#tree")
+    let front = document.querySelector("#mountain-front")
+    let back = document.querySelector("#mountain-back")
+
+    window.addEventListener('scroll', function() {
+      let value = window.scrollY
+     
+      tree.style.top = value * 0.20 + 'px'
+      front.style.top = value * 0.19 + 'px'
+      back.style.top = value * 0.15 + 'px'
+
+      if(moon.style.top > '150px') {
+        moon.style.top = value + 'px'
+      }
+    })
+  </script>
+</body>
+</html>
